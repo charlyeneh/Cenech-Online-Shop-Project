@@ -4,7 +4,12 @@
 
 ### Desktop version
 
-![screenshot](https://github.com/diamond-nicholas/TheNextWeb-Clone/blob/workspace/img/Desktop_View_Update.png)
+![screenshot](/home/emperor/Desktop/Microverse/projects/Capstone-Projects/Capstone1/final-submit/Cenech-Online-Shop-Project/images/desktop-view.png)
+
+### Mobile version
+
+![screenshot](/home/emperor/Desktop/Microverse/projects/Capstone-Projects/Capstone1/final-submit/Cenech-Online-Shop-Project/images/mobile-view.png)
+
 
 
 ## Built With
@@ -16,7 +21,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://diamond-nicholas.github.io/TheNextWeb-Clone/)
+[Live Demo Link](https://charlyeneh.github.io/Cenech-Online-Shop-Project/)
 
 ## Authors
 
