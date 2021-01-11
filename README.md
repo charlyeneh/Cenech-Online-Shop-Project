@@ -21,7 +21,19 @@
 
 ## Live Demo
 
-[Live Demo Link](https://charlyeneh.github.io/Cenech-Online-Shop-Project/)
+![Live Demo Link](https://charlyeneh.github.io/Cenech-Online-Shop-Project/)
+
+## Getting Started
+
+
+To get a local copy up and running follow these simple example steps.
+
+
+### Setup
+Checkout the project on your web browser with the provided link.
+
+### Install
+No installation required, simply right click on the index.html file and run it on your favorite browser.
 
 ## Authors
 

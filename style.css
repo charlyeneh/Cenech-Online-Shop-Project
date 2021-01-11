@@ -253,6 +253,8 @@ h4  {
     display: grid;
     grid-template-columns: repeat(4,1fr);
     border-top: 2px solid #D35266;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
 }
 .footer-content{
     width: 250px;
@@ -311,6 +313,9 @@ h4  {
 #footer-center {
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+#footer-left {
+    margin-left: 50px;
 }
 /*socials styling*/
 .socials {
