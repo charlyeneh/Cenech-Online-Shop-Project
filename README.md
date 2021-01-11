@@ -41,7 +41,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
--This project is a copy of the page "https://www.newsweek.com/"
+-This project is a copy of the page "https://www.behance.net/gallery/24796463/ZATTIX"
 -Inspiration
 -etc
 
