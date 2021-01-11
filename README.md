@@ -4,11 +4,11 @@
 
 ### Desktop version
 
-![screenshot](/home/emperor/Desktop/Microverse/projects/Capstone-Projects/Capstone1/final-submit/Cenech-Online-Shop-Project/images/desktop-view.png)
+![screenshot](https://github.com/charlyeneh/Cenech-Online-Shop-Project/blob/shop-home-page/images/desktop-view.png)
 
 ### Mobile version
 
-![screenshot](/home/emperor/Desktop/Microverse/projects/Capstone-Projects/Capstone1/final-submit/Cenech-Online-Shop-Project/images/mobile-view.png)
+![screenshot](https://github.com/charlyeneh/Cenech-Online-Shop-Project/blob/shop-home-page/images/mobile-view.png)
 
 
 
