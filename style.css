@@ -313,6 +313,16 @@ button {
   color: #d35266;
 }
 
+.lower-items p{
+  color: #d35266;
+}
+
+.lower-items .plus-sign {
+  border: 1px solid #888;
+  padding: 5px;
+  margin-left: 10px;
+}
+
 /* footer styling */
 .footer {
   padding: 10px 0;
