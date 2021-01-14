@@ -44,7 +44,7 @@ nav a {
   display: block;
   padding: 20px 10px;
   text-decoration: none;
-  color: #888888;
+  color: #888;
   text-align: center;
 }
 
@@ -55,6 +55,11 @@ nav a {
   margin-left: 10px;
   max-width: 60px;
   max-height: 60px;
+}
+
+i {
+  margin-right: 1.5rem;
+  color: #888;
 }
 
 .highlighted i {
@@ -79,18 +84,9 @@ nav a {
   align-items: center;
 }
 
-i {
-  margin-right: 1.5rem;
-  color: #888888;
-}
-
 p {
   margin-right: 1.5rem;
-  color: #888888;
-}
-
-.nav-right img {
-  border-radius: 15px;
+  color: #888;
 }
 
 /* Top Banner session */
@@ -153,7 +149,7 @@ button {
 .items-header {
   display: flex;
   flex-direction: row;
-  border-bottom: 2px solid #888888;
+  border-bottom: 2px solid #888;
   margin: 10px 0;
   max-width: 100%;
 }
@@ -179,7 +175,7 @@ button {
   max-width: 800px;
   display: flex;
   margin: auto;
-  border: 0.5px solid #888888;
+  border: 0.5px solid #888;
   justify-content: center;
 }
 
@@ -215,7 +211,7 @@ button {
 .barner .frame .details h4 {
   color: #d35266;
   margin-bottom: 5px;
-  border-bottom: 1px solid #888888;
+  border-bottom: 1px solid #888;
 }
 
 .button1 {
@@ -234,7 +230,7 @@ button {
 
 .button1 .hover:hover {
   cursor: pointer;
-  color: #888888;
+  color: #888;
 }
 
 .title h3 {
@@ -255,7 +251,7 @@ button {
 }
 
 .container {
-  border: 0.5px solid #888888;
+  border: 0.5px solid #888;
   width: 100%;
   height: auto;
   justify-content: center;

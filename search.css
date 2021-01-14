@@ -44,7 +44,7 @@ nav a {
   display: block;
   padding: 20px 10px;
   text-decoration: none;
-  color: #888888;
+  color: #888;
   text-align: center;
 }
 
@@ -78,12 +78,12 @@ nav a {
 
 i {
   margin-right: 1.5rem;
-  color: #888888;
+  color: #888;
 }
 
 p {
   margin-right: 1.5rem;
-  color: #888888;
+  color: #888;
 }
 
 .nav-right img {
@@ -142,7 +142,7 @@ button {
 }
 
 .form-format button a {
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -199,7 +199,7 @@ span {
   width: auto;
   display: flex;
   margin-bottom: 10px;
-  border: 2px solid #888888;
+  border: 2px solid #888;
 }
 
 .frame {
@@ -228,7 +228,7 @@ span {
 .content1 .frame .details h4 {
   color: #d35266;
   margin-bottom: 5px;
-  border-bottom: 1px solid #888888;
+  border-bottom: 1px solid #888;
 }
 
 .button1 {
@@ -247,7 +247,7 @@ span {
 
 .button1 .hover:hover {
   cursor: pointer;
-  color: #888888;
+  color: #888;
 }
 
 /* footer styling */
