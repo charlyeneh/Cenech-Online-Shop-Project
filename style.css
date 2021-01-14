@@ -23,6 +23,7 @@ body {
 .nav-right img {
   max-width: 40px;
   max-height: 40px;
+  border-radius: 50px;
 }
 
 nav {
@@ -69,7 +70,7 @@ i {
 .nav-btn {
   color: white;
   background-color: #d35266;
-  padding: 0 0;
+  padding: 3px 5px;
   margin: 20px 0;
   font-size: 15px;
   border-radius: 5px;
@@ -144,7 +145,14 @@ button {
   color: #fff;
   text-decoration: none;
 }
-
+.search-button {
+  border: 2px solid #383838;
+  border-radius: 5px;
+  padding: 10px 10px;
+  color: #fff;
+  background: #383838;
+  text-decoration: none;
+}
 /* Body title styling */
 .items-header {
   display: flex;
