@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="search.css"> 
+    <link rel="stylesheet" href="search.css">
     <link rel="stylesheet" href="/css/all.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
     <title>Cenech search page</title>
@@ -32,10 +32,12 @@
     </nav>
 <!--Top Banner-->
     <div class="top-banner">
-        <h1>Cenech</h1>
-        <h3>Best Solution in Green Energy</h3>
+        <div class="top-banner1">
+            <h1>Cenech</h1>
+            <h3>Best Solution in Green Energy</h3>
+        </div>
         <div class="form-container">
-            <form action="" class="form-format">
+            <form action="#" class="form-format">
                 <select name="Inverter Size" id="inverter-size">
                     <option value="1.5kva Inverter">1.5 kva Inverter</option>
                     <option value="2.5kva Inverter">2.5 kva Inverter</option>
@@ -51,7 +53,7 @@
     </div>
 <!--main body section-->
     <div class="main-container">
-        <div id="aside">
+        <aside class="aside-main">
             <div class="aside">
                 <h5>Inverter Brands</h5>
                 <div class="checkbox1">
@@ -80,7 +82,7 @@
                 </div>
                 <div class="checkbox1">
                     <input type="checkbox" name="checkbox" id="botto"><span>Botto</span>
-                </div>               
+                </div>
             </div>
             <div class="aside">
                 <h5>Solar Pannels</h5>
@@ -94,27 +96,27 @@
                     <input type="checkbox" name="checkbox" id="250watts"><span>250watts</span>
                 </div>
             </div>
-        </div>
+        </aside>
         <!--main body-->
         <div class="right-main">
             <div class="title"><h3>Results from your search query</h3></div>
             <!--item 1-->
-            <div id="content1">
+            <div class="content1">
                 <div class="frame">
                     <img src="/images/inverter1.jpeg">
                     <div class="details">
                         <div class="text">
                             <h4>Cenech Hybrid: 10KVA 48V Inverter</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad perferendis veniam enim placeat nulla, non voluptates voluptatum. Culpa, impedit laudantium. This should contain all the item description</p>
-                        </div>
-                        <div class="button1">
-                        <button>Price: $950</button>
-                        <button class="hover">Buy</button>
+                            <div class="button1">
+                            <button>Price: $950</button>
+                            <button class="hover">Buy</button>
+                            </div>
                         </div>
                     </div>
-                </div> 
+                </div>
             </div>
-            <div id="content1">
+            <div class="content1">
                 <div class="frame">
                     <img src="/images/inverter2.jpeg">
                     <div class="details">
@@ -126,9 +128,9 @@
                         <button>Price: $550</button>
                         <button class="hover">Buy</button>                        </div>
                     </div>
-                </div> 
+                </div>
             </div>
-            <div id="content1">
+            <div class="content1">
                 <div class="frame">
                     <img src="/images/inverter3.jpeg">
                     <div class="details">
@@ -140,9 +142,9 @@
                         <button>Price: $450</button>
                         <button class="hover">Buy</button>                        </div>
                     </div>
-                </div> 
+                </div>
             </div>
-            <div id="content1">
+            <div class="content1">
                 <div class="frame">
                     <img src="/images/inverter4.jpeg">
                     <div class="details">
@@ -154,9 +156,9 @@
                         <button>Price: $250</button>
                         <button class="hover">Buy</button>                        </div>
                     </div>
-                </div> 
+                </div>
             </div>
-            <div id="content1">
+            <div class="content1">
                 <div class="frame">
                     <img src="/images/controller1.jpeg">
                     <div class="details">
@@ -168,43 +170,52 @@
                         <button>Price: $150</button>
                         <button class="hover">Buy</button>                        </div>
                     </div>
-                </div> 
+                </div>
             </div>
         </div>
     </div>
     <!--footer-->
-        <div class="footer">
-            <div class="footer-content">
-                <img src="/images/navlogo.jpeg" alt="cenech">
-                <p class="footer-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt voluptate maxime esse odio, magni animi ad quo, officiis delectus odit porro. Reprehenderit omnis reiciendis vel quis minima obcaecati, est ipsam?</p>
+    <footer class="footer">
+        <div class="container1">
+            <div class="content">
+            <img src="/images/navlogo1.png" alt="cenech">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Dolorem distinctio ducimus, culpa corporis quidem voluptas
+                excepturi modi asperiores quod at. Lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Incidunt voluptate maxime
+                esse odio, magni animi ad quo, officiis delectus odit porro.
+                Reprehenderit omnis reiciendis vel quis minima obcaecati, est
+                ipsam?
+            </p>
             </div>
-            <div class="footer-content">
-                <p>Navigation</p>
-                <ul class="footer-content1">
-                    <li><a href="#">Home</a></li>                      
+            <div class="content">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
                     <li><a href="#">Sign In</a></li>
                     <li><a href="#">Sign Up</a></li>
                     <li><a href="#">FAQ</a></li>
                     <li><a href="#">Help</a></li>
                 </ul>
             </div>
-            <div class="footer-content">
-                <p>Cathegories</p>
-                <ul class="footer-content1">                      
+            <div class="content">
+                <h4>Cathegories</h4>
+                <ul>
                     <li><a href="#">Inverter</a></li>
                     <li><a href="#">Batteries</a></li>
                     <li><a href="#">Solar Pannels</a></li>
                     <li><a href="#">Charge Controllers</a></li>
                 </ul>
             </div>
-            <div class="footer-content">
-                <ul>
-                    <li>Country<button>U.S.</button></li>
-                    <li>Language<button>English</button></li>
-                    <li>Currency<button>US Dollars</button></li>
-                </ul>
+            <div class="content">
+            <ul>
+                <li class="btn">Country<button>U.S.</button></li>
+                <li class="btn">Language<button>English</button></li>
+                <li class="btn">Currency<button>US Dollars</button></li>
+            </ul>
             </div>
         </div>
+    </footer>
         <!--socials-->
         <div class="socials">
             <div class="copyright">
