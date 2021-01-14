@@ -51,7 +51,10 @@ nav a {
 .navlogo img {
   position: absolute;
   margin-top: 5px;
-  margin-left: 20px;
+  margin-bottom: auto;
+  margin-left: 10px;
+  max-width: 60px;
+  max-height: 60px;
 }
 
 .highlighted {
