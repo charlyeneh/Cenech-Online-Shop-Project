@@ -161,7 +161,6 @@ button {
 .aside-main {
   grid-area: aside;
   padding: 10px 10px;
-  margin-bottom: 20px 20px;
 }
 
 .aside {
@@ -233,7 +232,6 @@ span {
 
 .button1 {
   display: flex;
-  justify-content: last;
 }
 
 .button1 button {
