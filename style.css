@@ -182,7 +182,7 @@ button {
 .barner2 {
   grid-area: right-main;
   height: 300px;
-  max-width: 800px;
+  max-width: 100%;
   display: flex;
   margin: auto;
   border: 0.5px solid #888;
@@ -255,6 +255,7 @@ button {
 
 .button1 {
   display: flex;
+  justify-content: center;
 }
 
 .button1 button {
@@ -438,13 +439,30 @@ button {
     display: grid;
     max-width: 100%;
     grid-template-columns: 1fr;
-    justify-content: center;
     justify-items: center;
   }
 
   .content {
-    max-width: 50%;
+    max-width: 100%;
     margin-bottom: 20px;
+  }
+
+  .content h4 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .content ul li a {
+  font-size: 25px;
+  }
+
+  .content button {
+  padding: 20px 20px;
+  }
+
+  .btn {
+  font-size: 30px;
+  font-weight: bold;
   }
 
   .copyright {
