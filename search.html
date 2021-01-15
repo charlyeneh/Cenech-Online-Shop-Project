@@ -3,35 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="search.css">
-        <link rel="stylesheet" href="https://raw.githubusercontent.com/Charlyeneh/my-fonts-awesome/master/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
     <title>Cenech search page</title>
 </head>
 <body>
-    <!--Main Nav Section-->
+      <!--Main Nav Section-->
     <nav class="main-nav">
-        <div class="nav-left">
+        <nav class="nav-left">
             <div class="navlogo">
                 <img src="./images/navlogo.jpeg" alt="Cenech Logo">
             </div>
             <nav>
                 <ul>
-                    <li ><a href="#" class="highlighted"><i class="fas fa-home"> Home</i></a></li>
-                    <li><a href="#"><i class="fas fa-hashtag"> Collections</i></a></li>
-                    <li><a href="#"><i class="fas fa-shopping-cart"> Purchase List</i></a></li>
+                    <li ><a href="#" class="highlighted"><i class="fa fa-home"> Home</i></a></li>
+                    <li><a href="#"><i class="fa fa-hashtag">Collections</i></a></li>
+                    <li><a href="#"><i class="fa fa-shopping-cart"> Purchase List</i></a></li>
                     <li><a href="#" class="nav-btn">POST AN AD</a></li>
               </ul>
             </nav>
-        </div>
-        <div class="nav-right">
+        </nav>
+        <nav class="nav-right">
             <i class="fas fa-user"></i>
             <p>MOE Lester</p>
             <img src="./images/user.jpg" alt="user">
-        </div>
+        </nav>
     </nav>
 <!--Top Banner-->
-    <div class="top-banner">
+    <header class="top-banner">
         <div class="top-banner1">
             <h1>Cenech</h1>
             <h3>Best Solution in Green Energy</h3>
@@ -47,10 +47,10 @@
                 </select>
                 <input type="text" placeholder="Any Particular Brand?" class="">
                 <input type="text" placeholder="What are you looking for?" size="40">
-                <button type="submit">Search</button>
+                <a href="search.html" class="search-button">Search</a>
             </form>
         </div>
-    </div>
+    </header>
 <!--main body section-->
     <main class="main-container">
         <aside class="aside-main">
@@ -168,7 +168,8 @@
                         </div>
                         <div class="button1">
                         <button>Price: $150</button>
-                        <button class="hover">Buy</button>                        </div>
+                        <button class="hover">Buy</button>
+                        </div>
                     </div>
                 </div>
             </article>
@@ -176,7 +177,7 @@
     </main>
     <!--footer-->
     <footer class="footer">
-        <div class="container1">
+        <section class="container1">
             <div class="content">
             <img src="./images/navlogo1.png" alt="cenech">
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -185,7 +186,6 @@
                 amet consectetur adipisicing elit. Incidunt voluptate maxime
                 esse odio, magni animi ad quo, officiis delectus odit porro.
                 Reprehenderit omnis reiciendis vel quis minima obcaecati, est
-                ipsam?
             </p>
             </div>
             <div class="content">
@@ -199,7 +199,7 @@
                 </ul>
             </div>
             <div class="content">
-                <h4>Cathegories</h4>
+                <h4>Categories</h4>
                 <ul>
                     <li><a href="#">Inverter</a></li>
                     <li><a href="#">Batteries</a></li>
@@ -214,20 +214,20 @@
                 <li class="btn">Currency<button>US Dollars</button></li>
             </ul>
             </div>
-        </div>
+        </section>
+         <!--socials-->
+        <section class="socials">
+            <div class="copyright">
+                <p>Copyright<i class="far fa-copyright"></i> 2015 Ampert.com. All Eights Reserved. Designed by  Mohammed Awad</p>
+            </div>
+            <div class="connects">
+                <a href="#"><i class="fa fa-y-combinator"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-facebook-square"></i></a>
+            </div>
+        </section>
     </footer>
-        <!--socials-->
-    <div class="socials">
-        <div class="copyright">
-            <p>Copyright<i class="far fa-copyright"></i> 2015 Ampert.com. All Eights Reserved. Designed byMohammed Awad</p>
-        </div>
-        <div class="connects">
-            <a href="#"><i class="fab fa-y-combinator"></i></a>
-            <a href="#"><i class="fab fa-google-plus-g"></i></a>
-            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-facebook-square"></i></a>
-        </div>
-    </div>
 </body>
 </html>

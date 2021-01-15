@@ -324,6 +324,116 @@ button {
   margin-left: 10px;
 }
 
+/* search page main body styling */
+.main-container {
+  display: grid;
+  gap: 10px;
+  height: auto;
+  max-width: 100%;
+  grid-template-columns: 1fr 5fr;
+  grid-template-areas:
+    'aside right-main'
+    'aside right-main';
+}
+
+.aside-main {
+  grid-area: aside;
+  padding: 10px 10px;
+}
+
+.aside {
+  width: 150px;
+  height: auto;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.checkbox1,
+span {
+  margin-left: 20px;
+  padding: 10px 0;
+}
+
+.aside h5 {
+  border-bottom: 2px solid #d35266;
+}
+
+.title {
+  margin-top: 10px;
+  width: auto;
+}
+
+/* search page right main items */
+.content1 {
+  grid-area: right-main;
+  height: 300px;
+  width: auto;
+  display: flex;
+  margin-bottom: 10px;
+  border: 2px solid #888;
+}
+
+.frame {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 10px;
+  box-sizing: border-box;
+  grid-template-areas: 'img details';
+}
+
+.content img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+.content1 .frame img {
+  max-width: 100%;
+  max-height: 100%;
+  padding: 15px 10px;
+  margin: 0;
+}
+
+.content1 .frame .details {
+  max-width: 500px;
+  max-height: 240px;
+  justify-content: center;
+  text-align: justify;
+  margin-top: 20px;
+}
+
+.content h4 {
+  color: #d35266;
+  text-decoration: underline;
+  font-size: 18px;
+  box-sizing: border-box;
+}
+
+.content1 .frame .details h4 {
+  color: #d35266;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #888;
+}
+
+.button1 {
+  display: flex;
+}
+
+.button1 button {
+  padding: 10px 60px;
+  margin: 20px 30px;
+  align-items: flex-end;
+  background: #d35266;
+  border-radius: 10px;
+  color: white;
+}
+
+.button1 .hover:hover {
+  cursor: pointer;
+  color: #888;
+}
+
 /* footer styling */
 .footer {
   padding: 10px 0;
