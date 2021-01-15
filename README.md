@@ -21,7 +21,7 @@
 
 ## Live Demo
 
- - (https://raw.githack.com/charlyeneh/Cenech-Online-Shop-Project/shop-home-page/index.html)
+[Live Demo](https://raw.githack.com/charlyeneh/Cenech-Online-Shop-Project/shop-home-page/index.html)
 
 ## Getting Started
 
