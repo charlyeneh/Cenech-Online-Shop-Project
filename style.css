@@ -41,6 +41,11 @@ body {
   list-style: none;
 }
 
+.content2, .content3, .content4 li {
+  list-style: none;
+  margin-top: 10px;
+}
+
 .top-nav-left ul li {
   padding-left: 20px;
 }
@@ -513,12 +518,8 @@ span {
   border-radius: 10px;
 }
 
-.content2, .content3, .content4 li {
-  list-style: none;
-  margin-top: 10px;
-}
-
 /* socials styling */
+
 .socials {
   display: flex;
   margin-left: auto;
@@ -541,7 +542,7 @@ span {
   margin-left: 20px;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   .aside-main {
     display: none;
   }
