@@ -401,8 +401,7 @@ button {
   max-width: 100%;
   margin: auto;
   grid-template-columns: 1fr 6fr;
-  grid-template-areas:
-  "aside-main search-right-main";
+  grid-template-areas: "aside-main search-right-main";
 }
 
 /* search page aside styling */
