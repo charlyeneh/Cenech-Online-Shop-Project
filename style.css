@@ -48,6 +48,22 @@ body {
   margin-top: 10px;
 }
 
+.content2 li {
+  font-size: 15px;
+  color: #383838;
+  list-style: none;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.content3 li {
+  font-size: 15px;
+  color: #383838;
+  list-style: none;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
 .top-nav-left ul li {
   padding-left: 20px;
 }
@@ -152,6 +168,24 @@ button {
   border-radius: 5px;
 }
 
+.content2 a {
+  color: #888;
+  padding-left: 10px;
+  text-decoration: none;
+}
+
+.content3 a {
+  color: #888;
+  padding-left: 10px;
+  text-decoration: none;
+}
+
+.content4 a {
+  color: #d35266;
+  padding-left: 10px;
+  text-decoration: none;
+}
+
 .form-format button a {
   color: #fff;
   text-decoration: none;
@@ -187,6 +221,13 @@ button {
   margin-left: 0;
   color: #d35266;
   margin-top: 20px;
+}
+
+.content1 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
 }
 
 /* Index page main body */
@@ -264,6 +305,16 @@ button {
   font-size: 18px;
   box-sizing: border-box;
   max-width: auto;
+}
+
+.content2 h4 {
+  color: #d35266;
+  text-decoration: underline;
+}
+
+.content3 h4 {
+  color: #d35266;
+  text-decoration: underline;
 }
 
 .barner .frame .details h4 {
@@ -453,61 +504,10 @@ span {
   height: auto;
 }
 
-.content1 img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 20%;
-}
-
 .content1 p {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   padding-top: 10px;
   text-align: justify;
-}
-
-.content2 li {
-  font-size: 15px;
-  color: #383838;
-  list-style: none;
-  text-decoration: none;
-  margin-top: 20px;
-}
-
-.content3 li {
-  font-size: 15px;
-  color: #383838;
-  list-style: none;
-  text-decoration: none;
-  margin-top: 20px;
-}
-
-.content2 a {
-  color: #888;
-  padding-left: 10px;
-  text-decoration: none;
-}
-
-.content3 a {
-  color: #888;
-  padding-left: 10px;
-  text-decoration: none;
-}
-
-.content2 h4 {
-  color: #d35266;
-  text-decoration: underline;
-}
-
-.content3 h4 {
-  color: #d35266;
-  text-decoration: underline;
-}
-
-.content4 a {
-  color: #d35266;
-  padding-left: 10px;
-  text-decoration: none;
 }
 
 .content4 button {
