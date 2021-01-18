@@ -41,7 +41,9 @@ body {
   list-style: none;
 }
 
-.content2, .content3, .content4 li {
+.content2,
+.content3,
+.content4 li {
   list-style: none;
   margin-top: 10px;
 }
@@ -442,7 +444,10 @@ span {
   margin-bottom: 20px;
 }
 
-.content1, .content1, .content3 .content4 {
+.content1,
+.content1,
+.content3,
+.content4 {
   display: block;
   width: 25%;
   height: auto;
