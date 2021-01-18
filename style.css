@@ -184,7 +184,7 @@ button {
 
 /* Index page main body */
 .barner2 {
-  grid-area: "right-main";
+  grid-area: 'right-main';
   height: 300px;
   max-width: 100%;
   display: flex;
@@ -251,15 +251,18 @@ button {
   box-sizing: border-box;
 }
 
+.content1-details h4 {
+  color: #d35266;
+  text-decoration: underline;
+  font-size: 18px;
+  box-sizing: border-box;
+  max-width: auto;
+}
+
 .barner .frame .details h4 {
   color: #d35266;
   margin-bottom: 5px;
   border-bottom: 1px solid #888;
-}
-
-.button1 {
-  display: flex;
-  justify-content: center;
 }
 
 .button1 button {
@@ -342,12 +345,12 @@ button {
   margin: auto;
   grid-template-columns: 1fr 6fr;
   grid-template-areas:
-    "aside-main search-right-main";
+  "aside-main search-right-main";
 }
 
 /* search page aside styling */
 .aside-main {
-  grid-area: "aside-main";
+  grid-area: 'aside-main';
   margin: 10px 0;
   height: auto;
 }
@@ -374,7 +377,7 @@ span {
 
 /* search page right main items */
 .search-right-main {
-  grid-area: "search-right-main";
+  grid-area: 'search-right-main';
   height: auto;
   box-sizing: border-box;
   border: 1px solid #888;
@@ -411,36 +414,14 @@ span {
 .content1-details {
   justify-content: center;
   text-align: justify;
-  max-width: 65%;
   height: auto;
   padding: 10px;
 }
 
-.content1-details h4 {
-  color: #d35266;
-  text-decoration: underline;
-  font-size: 18px;
-  box-sizing: border-box;
-  max-width: auto;
-}
-
 .button1 {
   display: flex;
+  justify-content: center;
   padding: 10px;
-}
-
-.button1 button {
-  padding: 10px 60px;
-  margin: 20px 30px;
-  align-items: flex-end;
-  background: #d35266;
-  border-radius: 10px;
-  color: white;
-}
-
-.button1 .hover:hover {
-  cursor: pointer;
-  color: #888;
 }
 
 /* footer styling */
