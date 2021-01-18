@@ -9,24 +9,24 @@
     <title>Cenech search page</title>
 </head>
 <body>
-      <!--Main Nav Section-->
+    <!--Main Nav Section-->
     <nav class="main-nav">
         <nav class="nav-left">
             <div class="navlogo">
                 <img src="./images/navlogo.jpeg" alt="Cenech Logo">
             </div>
-            <nav>
+            <div class="top-nav-left">
                 <ul>
-                    <li ><a href="#" class="highlighted"><i class="fa fa-home"> Home</i></a></li>
+                    <li><a href="#" class="highlighted"><i class="fa fa-home"> Home</i></a></li>
                     <li><a href="#"><i class="fa fa-hashtag">Collections</i></a></li>
                     <li><a href="#"><i class="fa fa-shopping-cart"> Purchase List</i></a></li>
                     <li><a href="#" class="nav-btn">POST AN AD</a></li>
               </ul>
-            </nav>
+            </div>
         </nav>
         <nav class="nav-right">
-            <i class="fas fa-user"></i>
-            <p>MOE Lester</p>
+            <i class="fa fa-user"></i>
+            <p>  Moe Lester</p>
             <img src="./images/user.jpg" alt="user">
         </nav>
     </nav>
@@ -46,7 +46,7 @@
                     <option value="20kva Inverter">20 kva Inverter</option>
                 </select>
                 <input type="text" placeholder="Any Particular Brand?" class="">
-                <input type="text" placeholder="What are you looking for?" size="40">
+                <input type="text" placeholder="What are you looking for?" size="20">
                 <a href="search.html" class="search-button">Search</a>
             </form>
         </div>
@@ -98,87 +98,108 @@
             </div>
         </aside>
         <!--main body-->
-        <section class="right-main">
-            <div class="title"><h3>Results from your search query</h3></div>
+        <div class="search-right-main">
+            <div class="search-title"><h3>Results from your search query</h3></div>
             <!--item 1-->
-            <article class="content1">
-                <div class="frame">
+            <div class="search-content1">
+                <div class="content1-img-frame">
                     <img src="./images/inverter1.jpeg" alt="inverter">
-                    <div class="details">
-                        <div class="text">
-                            <h4>Cenech Hybrid: 10KVA 48V Inverter</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad perferendis veniam enim placeat nulla, non voluptates voluptatum. Culpa, impedit laudantium. This should contain all the item description</p>
-                            <div class="button1">
-                            <button>Price: $950</button>
-                            <button class="hover">Buy</button>
-                            </div>
-                        </div>
-                    </div>
                 </div>
-            </article>
-            <article class="content1">
-                <div class="frame">
-                    <img src="./images/inverter2.jpeg" alt="inverter">
-                    <div class="details">
-                        <div class="text">
-                            <h4>Growatt Hybrid: 5KVA 48V Inverter</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad perferendis veniam enim placeat nulla, non voluptates voluptatum. Culpa, impedit laudantium. This should contain all the item description</p>
-                        </div>
-                        <div class="button1">
-                        <button>Price: $550</button>
-                        <button class="hover">Buy</button>                        </div>
-                    </div>
-                </div>
-            </article>
-            <article class="content1">
-                <div class="frame">
-                    <img src="./images/inverter3.jpeg" alt="Cenech Logo">
-                    <div class="details">
-                        <div class="text">
-                            <h4>Sukam: 3.5KVA 24V Inverter</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad perferendis veniam enim placeat nulla, non voluptates voluptatum. Culpa, impedit laudantium. This should contain all the item description</p>
-                        </div>
-                        <div class="button1">
-                        <button>Price: $450</button>
-                        <button class="hover">Buy</button>                        </div>
-                    </div>
-                </div>
-            </article>
-            <article class="content1">
-                <div class="frame">
-                    <img src="./images/inverter4.jpeg" alt="Cenech Logo">
-                    <div class="details">
-                        <div class="text">
-                            <h4>Pasum: 5KVA 48V Inverter</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad perferendis veniam enim placeat nulla, non voluptates voluptatum. Culpa, impedit laudantium. This should contain all the item description</p>
-                        </div>
-                        <div class="button1">
-                        <button>Price: $250</button>
-                        <button class="hover">Buy</button>                        </div>
-                    </div>
-                </div>
-            </article>
-            <article class="content1">
-                <div class="frame">
-                    <img src="./images/controller1.jpeg" alt="Cenech Logo">
-                    <div class="details">
-                        <div class="text">
-                            <h4>50Amps Charge Controller</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad perferendis veniam enim placeat nulla, non voluptates voluptatum. Culpa, impedit laudantium. This should contain all the item description</p>
-                        </div>
-                        <div class="button1">
-                        <button>Price: $150</button>
+                <div class="content1-details">
+                    <h4>Cenech Hybrid: 10KVA 48V Inverter</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, sit. Loremipsumdolor sit amet consectetur adipisicing elit. Ad perferendis veniamenimplaceat nulla, non voluptates voluptatum. Culpa, impedit laudantium.Thisshould contain allthe     item description</p>
+                    <div class="button1">
+                        <button>Price: $950</button>
                         <button class="hover">Buy</button>
-                        </div>
                     </div>
                 </div>
-            </article>
-        </section>
+            </div>
+            <!-- item 2 -->
+            <div class="search-content1">
+                <div class="content1-img-frame">
+                    <img src="./images/inverter2.jpeg" alt="inverter">
+                </div>
+                <div class="content1-details">
+                    <article class="text">
+                        <h4>Growatt Hybrid: 5KVA 48V Inverter</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, sit. Lorem ipsumdolor sit amet consectetur adipisicing elit. Ad perferendis veniam enimplaceat nulla, non voluptates voluptatum. Culpa, impedit laudantium. Thisshould contain all the item description</p>
+                    </article>
+                    <div class="button1">
+                    <button>Price: $550</button>
+                    <button class="hover">Buy</button>
+                    </div>
+                </div>
+            </div>
+            <!--item 3-->
+                <div class="search-content1">
+                <div class="content1-img-frame">
+                    <img src="./images/pannel3.jpeg" alt="inverter">
+                </div>
+                <div class="content1-details">
+                    <article class="text">
+                        <h4>Sukam: 3.5KVA 24V Inverter</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, sit. Lorem ipsumdolor sit amet consectetur adipisicing elit. Ad perferendis veniam enimplaceat nulla, non voluptates voluptatum. Culpa, impedit laudantium. Thisshould contain all the item description</p>
+                    </article>
+                    <div class="button1">
+                    <button>Price: $450</button>
+                    <button class="hover">Buy</button>
+                    </div>
+                </div>
+            </div>
+            <!--item 4-->
+                <div class="search-content1">
+                <div class="content1-img-frame">
+                    <img src="./images/inverter4.jpeg" alt="inverter">
+                </div>
+                <div class="content1-details">
+                    <article class="text">
+                        <h4>Pasum: 5KVA 48V Inverter</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, sit. Lorem ipsumdolor sit amet consectetur adipisicing elit. Ad perferendis veniam enimplaceat nulla, non voluptates voluptatum. Culpa, impedit laudantium. Thisshould contain all the item description</p>
+                    </article>
+                    <div class="button1">
+                    <button>Price: $250</button>
+                    <button class="hover">Buy</button>
+                    </div>
+                </div>
+            </div>
+            <!--item 5-->
+                <div class="search-content1">
+                <div class="content1-img-frame">
+                    <img src="./images/controller1.jpeg" alt="inverter">
+                </div>
+                <div class="content1-details">
+                    <article class="text">
+                        <h4>50Amps PPMT Charge Controller</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, sit. Lorem ipsumdolor sit amet consectetur adipisicing elit. Ad perferendis veniam enimplaceat nulla, non voluptates voluptatum. Culpa, impedit laudantium. Thisshould contain all the item description</p>
+                    </article>
+                    <div class="button1">
+                    <button>Price: $150</button>
+                    <button class="hover">Buy</button>
+                    </div>
+                </div>
+            </div>
+            <!--item 6-->
+                <div class="search-content1">
+                <div class="content1-img-frame">
+                    <img src="./images/controller2.jpeg" alt="inverter">
+                </div>
+                <div class="content1-details">
+                    <article class="text">
+                        <h4>40Amps PPMT Charge Controller</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, sit. Lorem ipsumdolor sit amet consectetur adipisicing elit. Ad perferendis veniam enimplaceat nulla, non voluptates voluptatum. Culpa, impedit laudantium. Thisshould contain all the item description</p>
+                    </article>
+                    <div class="button1">
+                    <button>Price: $480</button>
+                    <button class="hover">Buy</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <!--footer-->
     <footer class="footer">
-        <section class="container1">
-            <div class="content">
+        <div class="container1">
+            <div class="content1">
             <img src="./images/navlogo1.png" alt="cenech">
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Dolorem distinctio ducimus, culpa corporis quidem voluptas
@@ -188,37 +209,39 @@
                 Reprehenderit omnis reiciendis vel quis minima obcaecati, est
             </p>
             </div>
-            <div class="content">
-                <h4>Navigation</h4>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Sign In</a></li>
-                    <li><a href="#">Sign Up</a></li>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Help</a></li>
-                </ul>
+            <div class="content-fix">
+                <div class="content2">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Sign In</a></li>
+                        <li><a href="#">Sign Up</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Help</a></li>
+                    </ul>
+                </div>
+                <div class="content3">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="#">Inverter</a></li>
+                        <li><a href="#">Batteries</a></li>
+                        <li><a href="#">Solar Pannels</a></li>
+                        <li><a href="#">Charge Controllers</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="content">
-                <h4>Categories</h4>
-                <ul>
-                    <li><a href="#">Inverter</a></li>
-                    <li><a href="#">Batteries</a></li>
-                    <li><a href="#">Solar Pannels</a></li>
-                    <li><a href="#">Charge Controllers</a></li>
-                </ul>
-            </div>
-            <div class="content">
+            <div class="content4">
             <ul>
                 <li class="btn">Country<button>U.S.</button></li>
                 <li class="btn">Language<button>English</button></li>
                 <li class="btn">Currency<button>US Dollars</button></li>
             </ul>
             </div>
-        </section>
+        </div>
          <!--socials-->
-        <section class="socials">
+        <div class="socials">
             <div class="copyright">
-                <p>Copyright<i class="far fa-copyright"></i> 2015 Ampert.com. All Eights Reserved. Designed by  Mohammed Awad</p>
+                <p>Copyright <i class="fa fa-copyright"></i> 2015 Ampert.com. All Eights Reserved. Designed by  Mohammed Awad</p>
             </div>
             <div class="connects">
                 <a href="#"><i class="fa fa-y-combinator"></i></a>
@@ -227,7 +250,7 @@
                 <a href="#"><i class="fa fa-twitter"></i></a>
                 <a href="#"><i class="fa fa-facebook-square"></i></a>
             </div>
-        </section>
+        </div>
     </footer>
 </body>
 </html>
