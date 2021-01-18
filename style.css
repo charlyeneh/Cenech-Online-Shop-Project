@@ -463,10 +463,10 @@ span {
 }
 
 .content1 img {
-  width: 40px;
-  height: 40px;
-  margin-left: 140px;
-  margin-top: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
 }
 
 .content1 p {
