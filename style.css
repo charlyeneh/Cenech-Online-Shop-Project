@@ -309,10 +309,23 @@ button {
   text-decoration: underline;
 }
 
+.f-content-center h4 {
+  color: #d35266;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
 .barner2 .details h4 {
   color: #d35266;
   margin-bottom: 5px;
   border-bottom: 1px solid #888;
+}
+
+.f-content-right button {
+  padding: 5px 5px;
+  margin: 0 10px;
+  border-radius: 5px;
 }
 
 .barner2 .button1 button {
@@ -325,10 +338,6 @@ button {
   color: #fff;
 }
 
-.button1 {
-  margin-top: 20px;
-}
-
 .button2,
 .button3 {
   background: #d35266;
@@ -337,6 +346,13 @@ button {
   color: white;
   padding: 5px 10px;
   text-decoration: none;
+}
+
+.f-content-center ul li a {
+  text-decoration: none;
+  color: #383838;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 .button1 a:hover {
@@ -469,6 +485,13 @@ span {
   padding: 10px;
 }
 
+.f-content-left img {
+  display: block;
+  margin: 0 auto;
+  width: 30px;
+  height: 30px;
+}
+
 .search-content1 .content1-img-frame img {
   max-width: 100%;
   height: auto;
@@ -510,13 +533,6 @@ span {
   justify-content: center;
 }
 
-.f-content-center h4 {
-  color: #d35266;
-  font-weight: bold;
-  font-size: 20px;
-  text-decoration: underline;
-}
-
 .center1,
 .center2 {
   padding-left: 30px;
@@ -532,22 +548,8 @@ span {
   margin-top: 20px;
 }
 
-.f-content-center ul li a {
-  text-decoration: none;
-  color: #383838;
-  font-size: 15px;
-  font-weight: bold;
-}
-
 .f-content-center ul li a:hover {
   color: #d35266;
-}
-
-.f-content-left img {
-  display: block;
-  margin: 0 auto;
-  width: 30px;
-  height: 30px;
 }
 
 .f-content-left p {
@@ -567,12 +569,6 @@ span {
 
 .f-content-right ul li {
   margin-bottom: 20px;
-}
-
-.f-content-right button {
-  padding: 5px 5px;
-  margin: 0 10px;
-  border-radius: 5px;
 }
 
 .btn {
