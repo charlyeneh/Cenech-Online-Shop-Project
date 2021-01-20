@@ -554,7 +554,7 @@ span {
 
 .f-content-left p {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  padding: 10px 10px 10px 1                                                   0px;
+  padding: 10px 10px 10px 10px;
   text-align: justify;
 }
 
